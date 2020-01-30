@@ -44,6 +44,9 @@ The following HTML document has an error. Can you find it?
 </div>
 ```
 
+<div> hello
+</div>
+
 Different tags are used to to display different user elements. Let's look at some of them in detail.
 
 ## Self closing tags
@@ -60,6 +63,8 @@ If your element does not have any children, you can open and close it immediatel
 
 The h1 tag is used to display something in big letters, usually for a title. There is also h2, which uses a slightly smaller font and is for subtitles. Then h3, which is a smaller font than h2, for subsubtitles, etc… all the way to h6
 button
+
+### button
 
 The button tag is used to display a clickable button. Its descendants cannot be a clickable element (eg: `<button><a href="/foobar"/></button>`)
 
